@@ -1,8 +1,7 @@
-console.log("External script loaded");
-  var splide = new Splide(".slider1", {
-    type: "loop",
-    padding: "5rem",
+  document.addEventListener("DOMContentLoaded", function () {
+    var splide = new Splide(".slider1", {
+      type: "loop",
+      padding: "5rem",
+    });
+    splide.mount();
   });
-  splide.mount();
-});
-
