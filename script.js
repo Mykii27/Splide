@@ -1,2 +1,7 @@
-console.log("External script loaded successfully!");
 
+var splide = new Splide( '.slider1', {
+  type   : 'loop',
+  padding: '5rem',
+} );
+
+splide.mount();
